@@ -35,14 +35,14 @@ they can be accessed over a secure SSM session manager tunnel.
 
 ## Prerequisites
 
-- Access to the Delivery Org's audit account with permissions to see secrets, ec2, and rds.
+- Access to the  Org's audit account with permissions to see secrets, ec2, and rds.
 - Client tools, AWS CLI, SSH and Postgres installed on your workstation
 - The SSM session-manager-plugin installed on your workstation
 - Oathtool for generating an OTP from a TOTP installed on your workstation
 
 ## Trying the Solution
 
-> At this time, as a demo, scope is limited to the Delivery org's Org account and Audit
+> At this time, as a demo, scope is limited to the org's Org account and Audit
 account (087806813403,640090909562). So, you'll need to login to the audit
 account (087806813403) to get the details and secrets needed for the examples below. 
 
